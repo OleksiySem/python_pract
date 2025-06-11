@@ -25,7 +25,7 @@ async def get_crypto_price(symbol: str = "BTCUSDT"):
     data = response.json()
     return {
         "Crypto": data["symbol"],
-        "price": data["price"]
+        "Price": data["price"]
     }
 
 
